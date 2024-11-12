@@ -9,3 +9,5 @@ type Props = {
 export default function AuthProvider({ children }: Props) {
   return <SessionProvider>{children}</SessionProvider>;
 }
+
+//for client side auth user session
